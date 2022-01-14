@@ -1,0 +1,10 @@
+name: PiolaMarket
+version: '${project.version}'
+main: org.kayteam.piolamarket.PiolaMarket
+api-version: 1.13
+prefix: PiolaMarket
+depend: [ KayTeamAPI, Vault ]
+softdepend: [ PlaceholderAPI ]
+authors: [ SirOswaldo, segu23 ]
+description: Description
+website: https://kayteam.org
