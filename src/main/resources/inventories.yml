@@ -1,0 +1,98 @@
+piolaMarket:
+  title: "&7           &9&lPiola &f&lMarket"
+  items:
+    panel:
+      material: CYAN_STAINED_GLASS_PANE
+      name: "&6"
+    separator:
+      material: RED_STAINED_GLASS_PANE
+      name: "&6"
+    categories:
+      material: CHEST
+      name: "&fCategorías"
+    products:
+      material: DIAMOND
+      name: "&fProductos"
+    reload:
+      material: REDSTONE_BLOCK
+      name: "&fRecargar"
+    close:
+      material: BARRIER
+      name: "&fCerrar"
+market:
+  title: "Market"
+  items:
+    panel:
+      material: CYAN_STAINED_GLASS_PANE
+      name: "&6"
+    statisticsSeller:
+      material: PAPER
+      name: "&fEstadísticas de Vendedor"
+    close:
+      material: BARRIER
+      name: "&fCerrar"
+    statisticsBuyer:
+      material: PAPER
+      name: "&fEstadísticas de Comprador"
+categoriesManager:
+  title: "Categories Manager"
+  rows: 6
+  items:
+    panel:
+      material: CYAN_STAINED_GLASS_PANE
+      name: "&6"
+    previousPage:
+      material: ARROW
+      name: "&fPágina anterior"
+    return:
+      material: ARROW
+      name: "&fRegresar"
+    close:
+      material: BARRIER
+      name: "&fCerrar"
+    createCategory:
+      material: DIAMOND
+      name: "&fCrear categoría"
+    nextPage:
+      material: ARROW
+      name: "&fSiguiente página"
+categoryEditor:
+  title: "Editando categoría"
+  items:
+    panel:
+      material: CYAN_STAINED_GLASS_PANE
+      name: "&6"
+    close:
+      material: BARRIER
+      name: "&fCerrar"
+    return:
+      material: ARROW
+      name: "&fRegresar"
+    delete:
+      material: REDSTONE_BLOCK
+      name: "&fBorrar Categoría"
+    separator:
+      material: RED_STAINED_GLASS_PANE
+      name: "&6"
+    products:
+      material: CHEST
+      name: "&fVer productos"
+categoryDeleteConfirm:
+  title: "¿Borrar categoría?"
+  items:
+    panel:
+      material: CYAN_STAINED_GLASS_PANE
+      name: "&6"
+    information:
+      material: PAPER
+      name: "&fInformación"
+      lore:
+        - "&6"
+        - "&fCategoría: &e%category_name%"
+        - "&fCantidad de productos: &e%category_products_amount%"
+    accept:
+      material: GREEN_STAINED_GLASS_PANE
+      name: "&aAceptar"
+    cancel:
+      material: RED_STAINED_GLASS_PANE
+      name: "&cCancelar"

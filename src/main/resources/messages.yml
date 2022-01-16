@@ -1,0 +1,14 @@
+prefix: "&9&lPiola&f&lMarket &7»"
+noPermission: "%prefix% &cNo tienes suficientes permisos."
+reloaded: "%prefix% &aRecarga del complemento completada."
+emptyArgument: "%prefix% &cThe argument is empty."
+invalidArgument: "%prefix% &cThe argument &f%argument% &cis invalid."
+onlyPlayers: "%prefix% &cSolo los jugadores pueden ejecutar este comando."
+categoryName:
+  input: "%prefix% &aIngrese el nombre de la categoría. &fPara cancelar presione SHIFT"
+  containSpace: "%prefix% &cEl nombre no puede contener espacios."
+categoryDisplayItem:
+  input: "%prefix% &aSuelte un item para establecer como objeto de previsualización. &fPara cancelar presione SHIFT"
+categoryCreationCanceled: "%prefix% &cCreación de categoría cancelada."
+categoryCreated: "%prefix% &aLa categoría &f%category_name% &afue creada."
+categoryDeleted: "%prefix% &aLa categoría &f%category_name% &afue eliminada."

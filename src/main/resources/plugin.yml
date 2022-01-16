@@ -8,3 +8,15 @@ softdepend: [ PlaceholderAPI ]
 authors: [ SirOswaldo, segu23 ]
 description: Description
 website: https://kayteam.org
+commands:
+  PiolaMarket:
+    description: Main Command
+  Market:
+    description: Market Command
+permissions:
+  piolamarket.admin:
+    description: Admin permission
+    children:
+      piolamarket.market: true
+  piolamarket.market:
+    description: Open market
